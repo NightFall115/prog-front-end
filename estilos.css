@@ -211,3 +211,12 @@
     background-color: azure;
     color: black;
 }
+
+.footer{
+    background-color: aquamarine;
+    color: red;
+}
+
+.footer p{
+    font-size: 25px;
+}
