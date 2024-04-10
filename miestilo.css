@@ -1,0 +1,24 @@
+h2{
+    color: cadetblue;
+    background-color: orange;
+}
+/* # sirve para añadir estilos por id*/
+h3#titulo1{
+    color: rgb(0, 86, 172);
+    background-color: rgb(176, 159, 141);
+    text-align: center;
+}
+
+/* . sirve para añadir por clases*/
+
+
+.xDDD{
+/* color sirve para cambiar el color del texto*/    
+    color: yellow;
+/* font-size sirve para cambiar el tamaño de la letra*/
+    font-size: 25px;
+/* background-color sirve para cambiar el color de fondo*/
+    background-color: tomato;
+/* text-aling para cambiar la aliniacion del texto*/
+    text-align: justify;
+}

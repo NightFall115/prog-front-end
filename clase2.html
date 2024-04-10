@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>clase 13-03</title>
+    <style>
+        ul {
+            list-style-type: none;
+            background-color: #333333;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            color: white;
+            text-decoration: none;
+            padding: 16px;
+            display: block;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Clase 2</h1>
+    </header>
+    <nav>
+        <!-- a es la etiqueta que permite accedeer a links, target="_blanck" abre el link a otra pestaña-->
+        <li><a href="https:\\www.google.cl" target="_blank">google</a></li>
+        <li><a href="https://portales.inacap.cl/" target="_blank">inacap</a></li>
+    </nav>
+    <main>
+        <h2> imagenes</h2>
+        <!-- img sirve para agregar imagenes, alt añadir un texto alternativo width es el ancho de la imagen, height es el alto-->
+        <img src="img/img1.webp" width="300" height="600">
+        <!-- imagen desde link externo-->
+        <img src="https://upload.wikimedia.org/wikipedia/en/0/04/Hollow_Knight_first_cover_art.webp" </main>
+        <div>
+            <h2> Estilos de texto</h2>
+            <hr>
+            <b> Probando texto</b>
+            <!-- salto de linea-->
+            <br>
+            <i> xDDDDDDD</i>
+            <del> xDDDDDDD texto</del>
+            <strong> xDDDDDDD</strong>
+            <em> xDDDDDDD</em>
+            <mark> xDDDDDDD</mark>
+            <small> xDDDDDDD</small>
+            <ins> xDDDDDDD </ins>
+            <sub> xDDDDDDD</sub>
+            <sup> xDDDDDDD</sup>
+        </div>
+        <div>
+            <h2> Caracteres especiales en HTML</h2>
+            <hr>
+            <!-- abbr sirve para mostrar un texto al pasar por encima-->
+            <abbr title="Servicio de impueste interno">SII</abbr>
+            <!-- address sirve para poner direcciones y puede llevar otros tag dentro-->
+            <address>Avenida 21 de mayo 701, Los Angeles Chile </address>
+            <!-- bdo define la direccion del texto-->
+            <bdo dir="rtl">Hola, soy el hollow knight</bdo><br>
+            <!-- sirve para realizar citas-->
+            <cite>
+                vayanse temprano pa la casa<br>
+                13-03 Enso Guidotti
+            </cite>
+            <br>
+            <!-- q sirve para añadir comillas a un texto-->
+            <q>Hoy es miercoles 13</q>
+        </div>
+        <div>
+            <h2>Tablas</h2>
+            <!-- table sirve para crear tablas-->
+            <table border="1">
+                <!-- encabezado de la tabla-->
+                <thead>
+                    <!-- tr es table row, fila-->
+                    <tr>
+                        <!-- table head, la celda del encabezado-->
+                        <th>Asignatura</th>
+                        <th>Semestre</th>
+                        <th>Docente</th>
+                    </tr>
+                </thead>
+                <!-- cuerpo de la tabla-->
+                <tbody>
+                    <tr>
+                        <td>FrontEnd</td>
+                        <td>4 semestre</td>
+                        <td>Enso</td>
+                    </tr>
+                    <tr>
+                        <td>BD relacionales</td>
+                        <td>4 semestre</td>
+                        <td>Silvia</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h2>Videos</h2>
+            <hr>
+            <!-- video es la etiqueta que permite añadir videos, controls es el atributo que permite reproducir el video-->
+            <!-- autoplay permite el inicio automatico del video una vez sea cargado por el navegador-->
+            <!-- poster es el atrubuto que permite añadir una imagen al principio de un video-->
+            <video src="img/Seth Special Theme _ Bravely Default II OST.mp4" controls width="30%" autoplay></video>
+            <video src="img/Persona 3 Reload OST - It's Going Down Now [2024 SQUEAKY CLEAN, DIRT-FREE VERSION] HQ.mp4"controls width="30%" 
+            poster="img/img1.webp" width="30%" height="30%"></video>
+            <!-- iframe es una etiqueta que permita la insercion de distintos elementos-->
+            <iframe width="30%" src="https://www.youtube.com/embed/kf1gHqritRQ" title="Persona 5 Royal - I Believe" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe src="https://aqiu384.github.io/megaten-fusion-tool/p3r/personas" frameborder="0"></iframe>
+            <!-- audio es la etiqueta que permite agregar audios a nuestra web-->
+            <audio src="img/y2mate.com - Shin Megami Tensei IV OST  Battle B2  Boss Battle Theme.mp3" controls autoplay></audio>
+        </div>
+</body>
+
+</html
